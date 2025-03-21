@@ -21,7 +21,7 @@ symbol_value_multiply = {
      "Mario": 2,
 }
 
-def check_winnings(columns, lines, bet, values):
+def check_winnings(columns, lines, bet):
     winnings = 0
     winning_lines = []
     for line in range(lines):
@@ -138,7 +138,7 @@ def spin(balance):
      slots = get_slot_machines_spin(ROWS, COLS, symbol_count)
      print(slots)#matrix
      show_slot_machines_lines(slots)
-     winnings, winning_lines = check_winnings(slots, lines, bet, symbol_value_multiply)
+     winnings, winning_lines = check_winnings(slots, lines, bet)
      print(winnings)
      print(winning_lines)
      if winnings == 0:
