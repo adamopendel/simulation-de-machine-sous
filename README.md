@@ -1,1 +1,1 @@
-juste un fan de programmation motivé
+un p'tit smulateur que j'ai fait y'a longtemps
